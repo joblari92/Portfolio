@@ -412,13 +412,24 @@ span {
 }
 
 .education-content .content p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     padding-top: .5rem;
+}
+
+.education-content .content h3 span {
+    font-size: 1.5rem;
+    font-style: oblique;
 }
 
 .education-content .content p a {
     color: var(--main-color);
     text-decoration: underline;
+}
+
+.education-content .content ul {
+    font-size: 1.4rem;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
 }
 
 .skills {
@@ -478,6 +489,10 @@ span {
     justify-content: space-between;
 }
 
+.idiomas {
+    padding-top: 2rem;
+}
+
 .skills-content .progress h3 span {
     color:  var(--text-color);
 }
@@ -499,19 +514,22 @@ span {
 
 /* Con esto selecciono el primer elemento de Column, en este caso el apartado Coding Skills, y con la segunda parte selecciono el primer elemento span, es decir, el de HTML, para representar el % de avance. Así sucesivamente para estos 8 bloques*/
 .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span{
-    width: 90%;
+    width: 80%;
 }
 .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span{
     width: 80%;
 }
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span{
-    width: 30%;
+    width: 40%;
 }
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span{
-    width: 70%;
+    width: 76%;
+}
+.skills-column:nth-child(1) .skills-content .progress:nth-child(6) .bar span{
+    width: 60%;
 }
 .skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span{
-    width: 70%;
+    width: 60%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span{
     width: 90%;
@@ -520,7 +538,13 @@ span {
     width: 80%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span{
-    width: 30%;
+    width: 70%;
+}
+.skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span{
+    width: 100%;
+}
+.skills-column:nth-child(2) .skills-content .progress:nth-child(5) .bar span{
+    width: 60%;
 }
 
 .contact {
